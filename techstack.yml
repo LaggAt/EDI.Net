@@ -1,0 +1,199 @@
+repo_name: LaggAt/EDI.Net
+report_id: 8fa01c842c7684224ea276dcd77e5ec0
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:50:09+00:00'
+requested_by: LaggAt
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  detection_source: test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-05-31 15:39:38.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '2.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  detection_source: test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-05-31 15:39:38.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '2.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  detection_source: test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-05-31 15:39:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  detection_source: test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  last_updated_by: Constantinos Leftheris
+  last_updated_on: 2017-03-31 17:41:06.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/indice.Edi.sln
+  detection_source: indice.Edi.sln
+  last_updated_by: Constantinos Leftheris
+  last_updated_on: 2017-03-31 17:41:06.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.3.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  detection_source: test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  last_updated_by: Constantinos Leftheris
+  last_updated_on: 2017-03-31 17:41:06.000000000 Z
+- name: Microsoft.CSharp
+  description: Provides support for compilation and code generation, including dynamic,
+    using the C# language
+  package_url: https://www.nuget.org/Microsoft.CSharp
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12845/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/src/indice.Edi/indice.Edi.csproj
+  detection_source: src/indice.Edi/indice.Edi.csproj
+  last_updated_by: Constantinos Leftheris
+  last_updated_on: 2017-03-31 17:41:06.000000000 Z
+- name: NETStandard.Library
+  description: A set of standard .NET APIs that are prescribed to be used and supported
+    together
+  package_url: https://www.nuget.org/NETStandard.Library
+  version: 1.6.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12843/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/src/indice.Edi/indice.Edi.csproj
+  detection_source: src/indice.Edi/indice.Edi.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-06-26 15:55:02.000000000 Z
+- name: System.ComponentModel.TypeConverter
+  description: Provides the System.ComponentModel.TypeConverter class, which represents
+    a unified way of converting types of values to other types
+  package_url: https://www.nuget.org/System.ComponentModel.TypeConverter
+  version: 4.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12989/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/src/indice.Edi/indice.Edi.csproj
+  detection_source: src/indice.Edi/indice.Edi.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-06-26 15:55:02.000000000 Z
+- name: System.Runtime.Numerics
+  description: Provides the numeric types System.Numerics.BigInteger and System.Numerics.Complex,
+    which complement the numeric primitives, such as System.Byte, System.Double and
+    System.Int32
+  package_url: https://www.nuget.org/System.Runtime.Numerics
+  version: 4.0.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13039/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/src/indice.Edi/indice.Edi.csproj
+  detection_source: src/indice.Edi/indice.Edi.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-01-19 15:01:15.000000000 Z
+- name: System.Runtime.Serialization.Primitives
+  description: Provides common types, including System.Runtime.Serialization.DataContractAttribute,
+    for libraries that support data contract serialization
+  package_url: https://www.nuget.org/System.Runtime.Serialization.Primitives
+  version: 4.1.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12913/default_d21793a7ac64bcdc81c7a16ad33374ffa00fa50d.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/src/indice.Edi/indice.Edi.csproj
+  detection_source: src/indice.Edi/indice.Edi.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-06-26 15:55:02.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.3.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/LaggAt/EDI.Net/blob/master/test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  detection_source: test/indice.Edi.Tests/indice.Edi.Tests.csproj
+  last_updated_by: Κωνσταντίνος Λευθέρης
+  last_updated_on: 2018-04-06 13:23:01.000000000 Z
